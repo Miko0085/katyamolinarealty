@@ -118,3 +118,28 @@ body:not(.home-overlay)>.site-header+.wrap{padding-top:clamp(16px,2vw,28px)}
 .site-header #nav .dropdown a:first-child:hover,.site-header #nav .dropdown a:first-child:focus-visible{color:var(--violet)}
 @media(max-width:1100px){.site-header #nav .nav-group{display:grid;grid-template-columns:minmax(0,1fr) 44px;width:100%;gap:0}.site-header #nav .hub-nav-link{font-size:15px;white-space:normal;padding:12px 0}.site-header #nav .hub-disclosure{opacity:1;width:44px;min-height:44px;font-size:20px;text-align:center;border:1px solid #ffffff55}.site-header #nav .hub-disclosure[aria-expanded=true]{background:#ffffff22}.site-header #nav .dropdown{grid-column:1/-1;position:static}}
 @media(pointer:coarse){.site-header #nav .hub-disclosure{opacity:1}}
+
+/* MOLINA photographic landing hero system — full bleed, transparent header at top. */
+body.has-photo-hero{padding-top:0}
+body.has-photo-hero>.site-header+.wrap{padding-top:0}
+body.has-photo-hero .site-header:not(.scrolled):not(.menu-active){background:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+body.has-photo-hero .site-header.scrolled,body.has-photo-hero .site-header.menu-active{background:#4105F2}
+body.has-photo-hero .site-header:not(.scrolled):not(.menu-active) header>.btn{background:transparent;color:white;border:1px solid white}
+body.has-photo-hero main>.photo-hero,body.has-photo-hero #home>.photo-hero{position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff;background:#24232a;min-height:clamp(520px,90vh,1000px);min-height:clamp(520px,90svh,1000px);margin:0 calc(-1 * clamp(16px,2.8vw,64px)) 24px;width:auto;padding:calc(var(--header-height,112px) + 40px) clamp(24px,6vw,100px) 60px;overflow:hidden}
+body.has-photo-hero #home>.photo-hero{min-height:100vh;min-height:100svh}
+.photo-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(15,14,24,.68),rgba(15,14,24,.48) 34%,rgba(15,14,24,.48) 72%,rgba(15,14,24,.54));pointer-events:none}
+body.has-photo-hero .photo-hero .hero-image{position:absolute;inset:0;min-height:0;z-index:-2;pointer-events:none}
+body.has-photo-hero .photo-hero .photo-hero-image,body.has-photo-hero .photo-hero .hero-image img{position:absolute;inset:0;width:100%;height:100%;min-height:0;max-width:none;object-fit:cover;object-position:center;z-index:-2}
+.photo-hero .hero-image .image-label,.photo-hero .graphic{display:none}
+body.has-photo-hero .photo-hero .hero-copy{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0;max-width:1120px;width:100%;overflow:visible}
+body.has-photo-hero .photo-hero h1,body.has-photo-hero #home>.photo-hero .hero-copy h1{color:white;font-family:Georgia,serif;font-size:clamp(40px,5.4vw,82px);font-weight:400;line-height:1.09;letter-spacing:-.035em;max-width:1100px;margin:20px auto 22px;text-wrap:balance;overflow-wrap:break-word;text-shadow:0 2px 18px #0005}
+body.has-photo-hero .photo-hero p,body.has-photo-hero #home>.photo-hero .hero-copy p{color:white;max-width:860px;margin:0 auto 32px;font-size:clamp(16px,1.5vw,23px);line-height:1.55;text-wrap:balance}
+.photo-hero .eyebrow,.photo-hero .future-label{color:#fff}
+body.has-photo-hero .photo-hero .btn{background:transparent;color:white;border:1px solid white;align-self:center;justify-content:center;gap:12px;min-height:48px;padding:15px 25px;text-decoration:none;transition:background .2s,color .2s}
+body.has-photo-hero .photo-hero .btn:hover,body.has-photo-hero .photo-hero .btn:focus-visible{background:white;color:var(--violet)}
+.photo-hero .hero-actions{justify-content:center}
+body.has-photo-hero main>.photo-hero-sell{background:url(image-3.jpg) center/cover}
+.photo-hero-sell>div{max-width:1000px}
+body.has-photo-hero main>.mol-breadcrumb{margin-top:0;margin-bottom:24px}
+@media(max-width:760px){body.has-photo-hero main>.photo-hero,body.has-photo-hero #home>.photo-hero{margin-inline:-16px;min-height:clamp(460px,82svh,760px);padding:calc(var(--header-height,80px) + 28px) 22px 44px}body.has-photo-hero #home>.photo-hero{min-height:100svh}body.has-photo-hero .photo-hero h1,body.has-photo-hero #home>.photo-hero .hero-copy h1{font-size:clamp(36px,9vw,56px);margin:16px auto 20px}body.has-photo-hero .photo-hero p,body.has-photo-hero #home>.photo-hero .hero-copy p{font-size:17px;margin-bottom:24px}.photo-hero .hero-actions{width:100%;max-width:380px;gap:12px}.photo-hero .hero-actions .btn{width:100%}}
+@media(prefers-reduced-motion:reduce){.photo-hero .btn{transition:none}}
