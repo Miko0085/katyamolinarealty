@@ -37,7 +37,7 @@
   },
   {
     "slug": "miami-video-library",
-    "title": "South Florida real estate \u2014 video format reference",
+    "title": "South Florida real estate — video format reference",
     "category": "Real Estate",
     "kind": "Video",
     "img": 2,
@@ -46,17 +46,6 @@
       "This is a third-party video reference from David Siddons Group, included solely to demonstrate the video player. It is not a Molina Group or Katya Molina publication."
     ],
     "youtube": "aRHlTxYRSkc"
-  },
-  {
-    "slug": "waterfront-short",
-    "title": "Waterfront living \u2014 short-form preview",
-    "category": "Lifestyle",
-    "kind": "Short",
-    "img": 2,
-    "desc": "A vertical video layout for future Instagram Reels or YouTube Shorts.",
-    "body": [
-      "Editorial placeholder. Add an authorized social post URL before publishing. No real social post is associated with this preview."
-    ]
   },
   {
     "slug": "investment-checklist",

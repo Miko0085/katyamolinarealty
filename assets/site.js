@@ -1,3 +1,5 @@
+/* Retire short-form content site-wide, including legacy shared navigation. */
+(()=>{const retired=new Set(['shorts.html','journal-waterfront-short.html','video-short-waterfront.html','video-short-yacht.html']);if(retired.has(location.pathname.split('/').pop())){location.replace('videos.html');return}document.querySelectorAll('a[href]').forEach(a=>{const target=a.getAttribute('href').split(/[?#]/)[0].split('/').pop();if(retired.has(target)){const card=a.closest('.journal-card,.vcard,.journal-vertical');(card||a).remove()}});document.querySelectorAll('[data-jfilter="Short"],[data-jkind="Short"],.journal-social').forEach(el=>el.remove());})();
 const nav=document.querySelector('#nav'),menu=document.querySelector('.menu');
 function closeDrops(except){document.querySelectorAll('.drop-toggle').forEach(b=>{if(b!==except){b.setAttribute('aria-expanded','false');document.getElementById(b.getAttribute('aria-controls')).hidden=true}})}
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));if(!open)closeDrops()});

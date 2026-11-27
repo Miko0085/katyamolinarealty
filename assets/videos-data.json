@@ -1,7 +1,7 @@
 [
   {
     "slug": "miami-reference",
-    "title": "South Florida real estate \u2014 external video reference",
+    "title": "South Florida real estate — external video reference",
     "category": "Real Estate",
     "image": "assets/image-2.jpg",
     "youtube": "aRHlTxYRSkc",
@@ -63,28 +63,6 @@
     "development": null,
     "property": "property-details.html",
     "short": false,
-    "status": "editorial placeholder"
-  },
-  {
-    "slug": "short-waterfront",
-    "title": "Waterfront living \u2014 vertical preview",
-    "category": "Lifestyle",
-    "image": "assets/image-2.jpg",
-    "youtube": null,
-    "development": null,
-    "property": "property-oceanfront.html",
-    "short": true,
-    "status": "editorial placeholder"
-  },
-  {
-    "slug": "short-yacht",
-    "title": "Yachting \u2014 vertical preview",
-    "category": "Yachting",
-    "image": "assets/image-5.jpg",
-    "youtube": null,
-    "development": null,
-    "property": null,
-    "short": true,
     "status": "editorial placeholder"
   }
 ]
