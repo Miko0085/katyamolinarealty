@@ -68,7 +68,7 @@ if(!target&&page==='contact.html'){target=document.createElement('section');targ
 if(!target)return;
 const photo=target.querySelector('.hero-image img, :scope > img');if(photo){target.classList.add('photo-hero');photo.classList.add('photo-hero-image');if(page==='about.html')photo.style.objectPosition='center 30%';}
 else if(target.classList.contains('sell-hero')){target.classList.add('photo-hero','photo-hero-sell')}
-else if(target.classList.contains('future-hero')){target.classList.add('photo-hero','photo-hero-future');const picture=document.createElement('img');picture.src='assets/image-2.jpg';picture.alt='South Florida editorial waterfront imagery';picture.className='photo-hero-image';target.prepend(picture)}
+else if(target.classList.contains('future-hero')){target.classList.add('photo-hero','photo-hero-future');const picture=document.createElement('img');picture.src=['aviation.html','private-jet-charter.html'].includes(page)?'assets/hero-aviation.webp':'assets/image-2.jpg';picture.alt='South Florida editorial waterfront imagery';picture.className='photo-hero-image';target.prepend(picture)}
 else return;
 /* Local WebP artwork, with current editorial image as fallback until the assets are uploaded. */
 const artwork=({'yachting.html':'hero-yachts.webp','yacht-charter.html':'hero-yachts.webp','aviation.html':'hero-aviation.webp','private-jet-charter.html':'hero-aviation.webp'})[page];if(artwork){const existing=target.querySelector('.photo-hero-image');if(existing){const candidate=new Image();candidate.onload=()=>{existing.src=candidate.src;existing.alt=artwork.includes('yachts')?'Illustrative luxury motor yacht on Miami waters':'Illustrative private jet at sunset';existing.style.objectPosition='65% center'};candidate.src='assets/'+artwork;}}
