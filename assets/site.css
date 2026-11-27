@@ -95,3 +95,15 @@ header{gap:18px}header nav{gap:15px;flex-wrap:wrap;justify-content:center}header
 
 /* Mobile advisor card: stacked layout on phones and tablets. */
 @media(max-width:900px){.quick-inquiry .agent-strip{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;width:100%;padding:20px 12px;text-align:center}.quick-inquiry .agent-strip>img{flex:none;width:72px;height:72px}.quick-inquiry .agent-strip>div{flex:none;width:100%;min-width:0;font-size:0;text-align:center}.quick-inquiry .agent-strip>div strong,.quick-inquiry .agent-strip>div a{display:block;font-size:13px;line-height:1.7;white-space:normal;overflow-wrap:anywhere}.quick-inquiry .agent-strip>div strong{font-size:16px}.quick-inquiry .agent-strip>div br{display:none}.quick-inquiry .agent-strip>span{flex:none;width:100%;max-width:none;margin:0;padding-top:12px;border-top:1px solid #ffffff40;font-size:12px;white-space:normal;text-align:center}.quick-inquiry .quick-row button{justify-content:center}}
+
+/* Interior navigation clearance and mobile breadcrumb containment. */
+body:not(.home-overlay)>.site-header+.wrap{padding-top:clamp(24px,3vw,40px)}
+.mol-breadcrumb{position:relative;width:100%;min-width:0;max-width:100%;margin-top:0;text-decoration:none}
+.mol-breadcrumb ol{min-width:0;max-width:100%}
+.mol-breadcrumb li,.mol-breadcrumb a,.mol-breadcrumb [aria-current="page"],.mol-breadcrumb a:hover,.mol-breadcrumb a:focus-visible{text-decoration:none}
+.mol-breadcrumb [aria-current="page"]{font-weight:600;color:var(--ink)}
+.mol-breadcrumb a:hover{color:var(--ink)}
+.page-hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.page-hero .hero-copy,.page-hero>img{min-width:0;max-width:100%}
+.page-hero h1{overflow-wrap:break-word}
+@media(max-width:760px){body:not(.home-overlay)>.site-header+.wrap{padding-top:28px}.mol-breadcrumb{padding-bottom:12px;margin-bottom:20px}.page-hero{grid-template-columns:minmax(0,1fr)}.page-hero h1{font-size:clamp(32px,9vw,52px)}.page-hero .eyebrow{overflow-wrap:break-word}}
