@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "miami-reference",
+    "title": "South Florida real estate \u2014 external video reference",
+    "category": "Real Estate",
+    "image": "assets/image-2.jpg",
+    "youtube": "aRHlTxYRSkc",
+    "development": "development-mercedes-benz-places.html",
+    "property": "property-details.html",
+    "short": false,
+    "status": "external reference"
+  },
+  {
+    "slug": "brickell",
+    "title": "Exploring branded residences in Brickell",
+    "category": "New Developments",
+    "image": "assets/image-4.jpg",
+    "youtube": null,
+    "development": "development-mercedes-benz-places.html",
+    "property": "property-details.html",
+    "short": false,
+    "status": "editorial placeholder"
+  },
+  {
+    "slug": "waterfront",
+    "title": "Waterfront homes in South Florida",
+    "category": "Property Tours",
+    "image": "assets/image-3.jpg",
+    "youtube": null,
+    "development": "development-villa-miami.html",
+    "property": "property-oceanfront.html",
+    "short": false,
+    "status": "editorial placeholder"
+  },
+  {
+    "slug": "investment",
+    "title": "Preparing an investment brief",
+    "category": "Investments",
+    "image": "assets/image-6.jpg",
+    "youtube": null,
+    "development": "development-888-brickell.html",
+    "property": "property-garden.html",
+    "short": false,
+    "status": "editorial placeholder"
+  },
+  {
+    "slug": "yachting",
+    "title": "A guide to yacht acquisition",
+    "category": "Yachting",
+    "image": "assets/image-5.jpg",
+    "youtube": null,
+    "development": null,
+    "property": null,
+    "short": false,
+    "status": "editorial placeholder"
+  },
+  {
+    "slug": "market",
+    "title": "Questions to ask about the Miami market",
+    "category": "Market Insights",
+    "image": "assets/image-2.jpg",
+    "youtube": null,
+    "development": null,
+    "property": "property-details.html",
+    "short": false,
+    "status": "editorial placeholder"
+  },
+  {
+    "slug": "short-waterfront",
+    "title": "Waterfront living \u2014 vertical preview",
+    "category": "Lifestyle",
+    "image": "assets/image-2.jpg",
+    "youtube": null,
+    "development": null,
+    "property": "property-oceanfront.html",
+    "short": true,
+    "status": "editorial placeholder"
+  },
+  {
+    "slug": "short-yacht",
+    "title": "Yachting \u2014 vertical preview",
+    "category": "Yachting",
+    "image": "assets/image-5.jpg",
+    "youtube": null,
+    "development": null,
+    "property": null,
+    "short": true,
+    "status": "editorial placeholder"
+  }
+]

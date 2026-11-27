@@ -1,0 +1,487 @@
+[
+  {
+    "name": "Viceroy Residences",
+    "slug": "viceroy-residences",
+    "source": "https://www.katyamolinarealty.com/viceroy_residences",
+    "location": "Aventura",
+    "summary": "Hospitality-inspired condominium living with interiors by DesignAgency.",
+    "facts": [
+      "274 residences",
+      "28 stories",
+      "1–4 bedrooms",
+      "Related Group / BH Group",
+      "Arquitectonica"
+    ],
+    "amenities": [
+      "Resort pool",
+      "Spa",
+      "Pickleball",
+      "Coworking",
+      "Golf simulator"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "888 Brickell",
+    "slug": "888-brickell",
+    "source": "https://www.katyamolinarealty.com/888_brickell",
+    "location": "Brickell",
+    "summary": "Dolce & Gabbana-branded residences with furnished interiors and private outdoor loggias.",
+    "facts": [
+      "259 residences",
+      "90 stories (source figure)",
+      "JDS Development Group",
+      "Studio Sofield"
+    ],
+    "amenities": [
+      "Indoor padel",
+      "Wellness spa",
+      "Private dining",
+      "Concierge",
+      "Screening room"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "The Rider",
+    "slug": "the-rider",
+    "source": "https://www.katyamolinarealty.com/the_rider_residences",
+    "location": "Wynwood / Midtown",
+    "summary": "Furnished residences designed around flexible stays in Miami’s creative district.",
+    "facts": [
+      "146 residences",
+      "12 stories",
+      "Studio–3 bedrooms",
+      "Rilea Group / Ciprés",
+      "Deforma Studio"
+    ],
+    "amenities": [
+      "Rooftop pool",
+      "Infrared sauna",
+      "Entertainment lounge",
+      "Smart home features",
+      "Pet facilities"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Domus Flats",
+    "slug": "domus-flats",
+    "source": "https://www.katyamolinarealty.com/domus",
+    "location": "Brickell",
+    "summary": "Two boutique residential concepts: Domus Brickell Park and Domus Brickell Center, both presented with hospitality-oriented flexible stays.",
+    "facts": [],
+    "amenities": [],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Edge House",
+    "slug": "edge-house",
+    "source": "https://www.katyamolinarealty.com/edgehouse",
+    "location": "Edgewater",
+    "summary": "The source presents a residential project with bay views and rental reservation technology.",
+    "facts": [],
+    "amenities": [
+      "Rental reservation system (source excerpt)"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "partial source excerpt"
+  },
+  {
+    "name": "Jem Residences",
+    "slug": "jem-residences",
+    "source": "https://www.katyamolinarealty.com/jem_residences",
+    "location": "Miami Worldcenter",
+    "summary": "Naftali Group’s residential tower in the downtown Miami Worldcenter district.",
+    "facts": [
+      "Naftali Group"
+    ],
+    "amenities": [
+      "Sky lounge",
+      "Pool and cabanas",
+      "Outdoor fitness",
+      "Coworking",
+      "Spa and salt room"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Armani Casa",
+    "slug": "armani-casa",
+    "source": "https://www.katyamolinarealty.com/armani_casa",
+    "location": "Pompano Beach",
+    "summary": "An oceanfront ARMANI/CASA project at 1550 N Ocean Blvd with single-residence-per-floor layouts.",
+    "facts": [
+      "28 residences",
+      "19 stories (source figure)",
+      "SP Development",
+      "G3 AEC"
+    ],
+    "amenities": [
+      "Lap pool",
+      "Spa and hammam",
+      "Business lounge",
+      "Fitness studio",
+      "Watersports storage"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Pagani",
+    "slug": "pagani",
+    "source": "https://www.katyamolinarealty.com/pagani",
+    "location": "North Bay Village",
+    "summary": "Pagani-branded waterfront residences with design involvement from Pagani Arte.",
+    "facts": [
+      "7940 West Drive",
+      "28 stories",
+      "Riviera Horizons",
+      "Revuelta Architecture International"
+    ],
+    "amenities": [
+      "Rooftop pool",
+      "Private marina",
+      "Wellness facilities",
+      "Coworking",
+      "Concierge"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "St Regis Brickell",
+    "slug": "st-regis-brickell",
+    "source": "https://www.katyamolinarealty.com/st-regis-brickell",
+    "location": "Brickell",
+    "summary": "The William and Astor towers combine residential living with St. Regis hospitality.",
+    "facts": [
+      "William: 46 stories / 183 homes",
+      "Astor: 48 stories / 149 homes"
+    ],
+    "amenities": [
+      "Private marina",
+      "Bayfront pool",
+      "Butler service",
+      "Golf simulator",
+      "Sky lounge"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "ORA by Casa Tua",
+    "slug": "ora-by-casa-tua",
+    "source": "https://www.katyamolinarealty.com/ora-by-casa-tua",
+    "location": "Brickell",
+    "summary": "A Casa Tua residential concept integrating dining, social spaces and landscaped environments.",
+    "facts": [
+      "1300 Brickell Ave",
+      "76 stories",
+      "540 units",
+      "Fortune International Group",
+      "Arquitectonica"
+    ],
+    "amenities": [
+      "Creative workspace",
+      "Casa Tua services",
+      "Dedicated elevators"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "NoMad Residences Wynwood",
+    "slug": "nomad-residences-wynwood",
+    "source": "https://www.katyamolinarealty.com/nomad-residences-wynwood",
+    "location": "Wynwood",
+    "summary": "Furnished condominiums in the arts district, with NoMad hospitality and Casa Tua dining.",
+    "facts": [
+      "329 residences",
+      "478–911 sq ft",
+      "Studio–2 bedrooms",
+      "Related Group",
+      "Arquitectonica"
+    ],
+    "amenities": [
+      "Rooftop dining",
+      "Pool",
+      "Coworking",
+      "Outdoor cinema",
+      "Fitness"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "The Residences at Mandarin Oriental Miami",
+    "slug": "the-residences-at-mandarin-oriental-miami",
+    "source": "https://www.katyamolinarealty.com/mandarin-oriental-residences-miami",
+    "location": "Miami waterfront",
+    "summary": "A waterfront residential concept with architecture by KPF and residential interiors by Tristan Auer.",
+    "facts": [
+      "Kohn Pedersen Fox Associates",
+      "Tristan Auer",
+      "Landscape: Shma"
+    ],
+    "amenities": [
+      "Infinity pools",
+      "Private cabanas",
+      "Dining facilities",
+      "Spa",
+      "Work lounges"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Villa Miami",
+    "slug": "villa-miami",
+    "source": "https://www.katyamolinarealty.com/villa-miami",
+    "location": "Edgewater",
+    "summary": "Waterfront residences with a hospitality concept associated with Major Food Group.",
+    "facts": [
+      "700 NE 29th St",
+      "55 stories",
+      "70 units",
+      "ODP",
+      "Vicky Charles"
+    ],
+    "amenities": [
+      "Private gardens",
+      "Thermal spa",
+      "Fitness studios",
+      "Resident club",
+      "Pool deck"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Rivage Bal Harbour",
+    "slug": "rivage-bal-harbour",
+    "source": "https://www.katyamolinarealty.com/rivage-bal-harbour",
+    "location": "Bal Harbour",
+    "summary": "Oceanfront homes with architecture by SOM and interiors by Rottet Studio.",
+    "facts": [
+      "25 stories",
+      "56 homes",
+      "3–6 bedrooms",
+      "Approx. 3,300–12,600 sq ft"
+    ],
+    "amenities": [
+      "Private elevator entry",
+      "Two-car garages",
+      "Concierge",
+      "Beachfront amenities"
+    ],
+    "source_documents": [
+      "Factsheet",
+      "Floor plans"
+    ],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "St Regis Sunny Isles",
+    "slug": "st-regis-sunny-isles",
+    "source": "https://www.katyamolinarealty.com/st-regis",
+    "location": "Sunny Isles Beach",
+    "summary": "Two residential towers on the oceanfront with St. Regis services.",
+    "facts": [
+      "18801 Collins Ave",
+      "Arquitectonica",
+      "Fortune International (source)"
+    ],
+    "amenities": [
+      "Spa",
+      "Oceanfront fitness",
+      "Padel",
+      "Valet",
+      "Concierge"
+    ],
+    "source_documents": [
+      "Factsheet",
+      "Floorplans A",
+      "Floorplans B"
+    ],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Mercedes-Benz Places",
+    "slug": "mercedes-benz-places",
+    "source": "https://www.katyamolinarealty.com/mercedesbenz",
+    "location": "Brickell",
+    "summary": "Mercedes-Benz-branded residential living with integrated technology and wellness spaces.",
+    "facts": [
+      "Woods Bagot kitchen design"
+    ],
+    "amenities": [
+      "Rooftop pool",
+      "Wellness center",
+      "Race simulator",
+      "Padel",
+      "Recording studio"
+    ],
+    "source_documents": [
+      "Studio plans",
+      "Floorplates",
+      "1 bedroom plans",
+      "2 bedroom plans",
+      "3 bedroom plans",
+      "Factsheet"
+    ],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Icon Beach Hollywood",
+    "slug": "icon-beach-hollywood",
+    "source": "https://www.katyamolinarealty.com/icon-miami-beach-hollywood-",
+    "location": "Hollywood",
+    "summary": "Waterfront residences with Meyer Davis kitchen design and extensive outdoor amenity space.",
+    "facts": [
+      "40,000 sq ft outdoor amenities (source)"
+    ],
+    "amenities": [
+      "Marina access",
+      "Beach club",
+      "Pool",
+      "Wellness center",
+      "Outdoor cinema"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "72 Park Residences",
+    "slug": "72-park-residences",
+    "source": "https://www.katyamolinarealty.com/72-parkresidences",
+    "location": "Miami Beach",
+    "summary": "Furnished residential options with panoramic views and a substantial indoor-outdoor amenity program.",
+    "facts": [
+      "22 stories",
+      "470–1,177 sq ft",
+      "Junior 1–3 bedrooms",
+      "Built Form"
+    ],
+    "amenities": [
+      "150-foot pool",
+      "Coworking",
+      "Fitness center",
+      "Owners rooftop",
+      "Dining"
+    ],
+    "source_documents": [
+      "Factsheet",
+      "Plans"
+    ],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "The Well Bay Harbour Islands",
+    "slug": "the-well-bay-harbour-islands",
+    "source": "https://www.katyamolinarealty.com/the-well",
+    "location": "Bay Harbor Islands",
+    "summary": "Wellness-oriented residences with light-filled layouts and a focus on everyday health rituals.",
+    "facts": [],
+    "amenities": [
+      "Rooftop pool",
+      "Wellness center",
+      "Private beach club",
+      "Tea lounge",
+      "Electric house car"
+    ],
+    "source_documents": [],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  },
+  {
+    "name": "Bentley Residences",
+    "slug": "bentley-residences",
+    "source": "https://www.katyamolinarealty.com/bentleyresidences",
+    "location": "Sunny Isles Beach",
+    "summary": "Bentley-branded oceanfront residences with vehicle elevators and private sky garages.",
+    "facts": [
+      "63 stories",
+      "216 residences",
+      "Dezer Development",
+      "Sieger Suarez Architects"
+    ],
+    "amenities": [
+      "Private pools",
+      "Cinema",
+      "Restaurant",
+      "Oceanfront pool deck",
+      "Spa"
+    ],
+    "source_documents": [
+      "Factsheet",
+      "Floor plan",
+      "Amenities floor plan"
+    ],
+    "media_status": "pending authorized local files",
+    "pricing": null,
+    "availability": null,
+    "review_status": "source summary; verify before publication"
+  }
+]

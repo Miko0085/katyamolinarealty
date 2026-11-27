@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "REPLACE_WITH_VERIFIED_TITLE",
+  "description": "REPLACE_WITH_VERIFIED_DESCRIPTION",
+  "thumbnailUrl": ["REPLACE_WITH_PUBLIC_THUMBNAIL_URL"],
+  "uploadDate": "REPLACE_WITH_ISO_DATE",
+  "duration": "REPLACE_WITH_ISO_DURATION",
+  "embedUrl": "https://www.youtube.com/embed/VIDEO_ID",
+  "hasPart": [{"@type":"Clip","name":"VERIFIED_CHAPTER","startOffset":0,"endOffset":30,"url":"https://YOUR_DOMAIN/videos/VIDEO_SLUG/?t=0"}]
+}

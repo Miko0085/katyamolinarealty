@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "miami-buyers-guide",
+    "title": "Buying a home in South Florida: where to begin",
+    "category": "Real Estate",
+    "kind": "Article",
+    "img": 3,
+    "desc": "A practical starting point for international buyers exploring Miami.",
+    "body": [
+      "Start by defining the way you want to live: proximity to work, the waterfront, schools, and everyday amenities. Compare neighborhoods in person where possible.",
+      "Before making an offer, discuss financing, ownership costs, insurance and association requirements with qualified local professionals. Ask your advisor to explain the transaction process and the documents you will need."
+    ]
+  },
+  {
+    "slug": "branded-residences-guide",
+    "title": "What to look for in a branded residence",
+    "category": "New Developments",
+    "kind": "Article",
+    "img": 4,
+    "desc": "Architecture, services and the details worth comparing before a purchase.",
+    "body": [
+      "Look beyond the brand name. Compare the floor plans, building services, developer track record and ongoing ownership costs.",
+      "Ask for current availability, deposit terms, completion estimates and the applicable disclosures directly from the project representatives."
+    ]
+  },
+  {
+    "slug": "yacht-acquisition-guide",
+    "title": "A considered approach to yacht acquisition",
+    "category": "Yachting",
+    "kind": "Article",
+    "img": 5,
+    "desc": "Questions to ask before choosing your next yacht.",
+    "body": [
+      "Consider intended cruising areas, guest capacity, maintenance requirements and the support network before narrowing your selection.",
+      "Arrange an independent survey and discuss operating costs, berthing and insurance with qualified specialists."
+    ]
+  },
+  {
+    "slug": "miami-video-library",
+    "title": "South Florida real estate \u2014 video format reference",
+    "category": "Real Estate",
+    "kind": "Video",
+    "img": 2,
+    "desc": "External video example showing how a local luxury team presents its expertise.",
+    "body": [
+      "This is a third-party video reference from David Siddons Group, included solely to demonstrate the video player. It is not a Molina Group or Katya Molina publication."
+    ],
+    "youtube": "aRHlTxYRSkc"
+  },
+  {
+    "slug": "waterfront-short",
+    "title": "Waterfront living \u2014 short-form preview",
+    "category": "Lifestyle",
+    "kind": "Short",
+    "img": 2,
+    "desc": "A vertical video layout for future Instagram Reels or YouTube Shorts.",
+    "body": [
+      "Editorial placeholder. Add an authorized social post URL before publishing. No real social post is associated with this preview."
+    ]
+  },
+  {
+    "slug": "investment-checklist",
+    "title": "Preparing your property investment brief",
+    "category": "Investments",
+    "kind": "Article",
+    "img": 6,
+    "desc": "Define objectives, time horizon and the information you need.",
+    "body": [
+      "Define your objectives and risk tolerance before comparing opportunities. Consider your holding period, financing and potential operating costs.",
+      "Request independent legal, tax and financial advice before committing capital."
+    ]
+  }
+]
