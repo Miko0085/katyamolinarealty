@@ -42,7 +42,7 @@ const src=esc(source.href);
 const wrapper=document.createElement('div');wrapper.className='dev-page';
 wrapper.innerHTML='<section class="dev-intro"><div class="dev-intro-copy"><span class="eyebrow">NEW DEVELOPMENTS · '+esc(loc)+'</span><h1>'+esc(name)+'</h1><p>'+esc(summary)+'</p><a class="btn" href="#quick-inquiry">Get prices &amp; availability ↗</a></div>'+(imgs.length?'<figure class="dev-cover">'+img(0,'fetchpriority="high"')+'<figcaption>Project rendering · Original Molina website</figcaption></figure>':'')+'</section>'+
 (facts.length?'<div class="dev-facts">'+facts.map(x=>'<div>'+esc(x)+'</div>').join('')+'</div>':'')+
-'<nav class="dev-section-nav" aria-label="Project sections"><a href="#dev-overview">Overview</a><a href="#dev-amenities">Amenities</a><a href="#dev-gallery">Gallery</a><a href="#quick-inquiry">Availability</a></nav>'+
+
 block('dev-overview','01 / THE PROJECT','Project overview','<p>'+esc(d.overview||summary)+'</p><p>'+esc(loc)+' · South Florida</p>',1)+
 (d.res?block('dev-residences','02 / THE RESIDENCES','Designed for exceptional living.',list(d.res),2):'')+
 '<section class="dev-section" id="dev-amenities"><span class="eyebrow">03 / LIFESTYLE</span><h2>Amenities &amp; experiences</h2><div class="dev-amenity-grid">'+Object.entries(groups).filter(([k,v])=>v.length).map(([k,v])=>'<article><h3>'+esc(k)+'</h3>'+list(v)+'</article>').join('')+'</div>'+(Object.values(groups).some(x=>x.length)?'':'<p>Request confirmed project details from your advisor.</p>')+'</section>'+
