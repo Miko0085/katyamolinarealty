@@ -72,3 +72,23 @@ header{gap:18px}header nav{gap:15px;flex-wrap:wrap;justify-content:center}header
 /* v13: consolidated Explore footer navigation. */
 .footer-main{grid-template-columns:repeat(2,minmax(0,1fr)) minmax(250px,1.65fr)}
 @media(max-width:1100px){.footer-main{grid-template-columns:repeat(2,minmax(0,1fr))}.footer-contact{grid-column:1/-1}}
+
+/* Shared inquiry advisor: prevent flex shrink and keep contact details readable. */
+.agent-strip{display:grid;grid-template-columns:66px minmax(0,1fr) minmax(0,200px);align-items:center;gap:16px}
+.agent-strip img{display:block;width:66px;height:66px;max-width:100%}
+.agent-strip>div{min-width:0;overflow-wrap:break-word}
+.agent-strip>span{margin:0;min-width:0;max-width:none}
+.agent-strip a[href^="tel:"]{white-space:nowrap;overflow-wrap:normal}
+.agent-strip a[href^="mailto:"]{overflow-wrap:anywhere;word-break:normal}
+@media(max-width:760px){
+  .agent-strip{grid-template-columns:56px minmax(0,1fr);gap:12px;padding:14px;text-align:left;align-items:start}
+  .agent-strip img{width:56px;height:56px}
+  .agent-strip>div{grid-column:2;line-height:1.6}
+  .agent-strip>span{grid-column:1/-1;border-top:1px solid #ffffff40;padding-top:10px;font-size:12px}
+  .agent-strip a{display:block}
+  .quick-inquiry .quick-row button{justify-content:center}
+}
+@media(max-width:360px){
+  .agent-strip{grid-template-columns:minmax(0,1fr)}
+  .agent-strip>div{grid-column:1}
+}
